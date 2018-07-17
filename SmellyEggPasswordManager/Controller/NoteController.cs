@@ -93,11 +93,6 @@ namespace SmellyEggPasswordManager.Controller
                         if (result == 1) return true;
                     }
                 }
-
-                //string sql = "INSERT INTO `MyNote`(`UserName`, `NoteType`, `NoteContent`, `NoteTitle`) VALUES ('{0}','{1}','{2}','{3}')";
-                //sql = string.Format(sql, user.UserName, note.NoteType, note.NoteContent, note.NoteTitle);
-                //var result = await ExcuteNonQuery(sql);
-                //if (result == 1) return true;
             }
             catch(Exception ex)
             {
